@@ -111,9 +111,9 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. A refference to an object. 
-  2. Can be used in constructor functions.
-  3. Can be used inside a function to reference objects key's.
+  1. Can be used with .apply(), .bind(), and .call().
+  2. Can be used in constructor functions, to point to the newly created object and reference it.
+  3. When used with window binding, this defaults to the window. If in strict mode it will return undefined.
   4. when a function is invoked with " . ", look before the " . " to see what "this " is reffering to.
 */
 
